@@ -34,12 +34,14 @@ pip install scapy python-nmap pandas
 ## Usage
 ### **1️. Capture Network Packets**
 Run the following script to sniff packets on your network:
-```python capture_packets.py
+```bash
+python capture_packets.py
 ```
 **Note:** Run the script **as Administrator** for packet sniffing to work on Windows.
 
 ### **2️. Scan Open Ports Using Nmap**
-```python scan_network.py
+```bash
+python scan_network.py
 ```
 
 ### **3️. Run an Nmap Scan from CMD**
